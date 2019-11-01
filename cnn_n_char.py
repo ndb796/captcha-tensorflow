@@ -6,7 +6,7 @@ import tensorflow as tf
 
 import datasets.base as input_data
 
-MAX_STEPS = 40000
+MAX_STEPS = 150000
 BATCH_SIZE = 50
 
 LOG_DIR = 'log/cnn1-run-%s' % datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
